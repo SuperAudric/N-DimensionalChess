@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8592033109214869622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8592033109214869608}
+  - component: {fileID: 8592033110357841914}
+  - component: {fileID: 8592033110357841915}
+  m_Layer: 0
+  m_Name: Main Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8592033109214869608
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8592033109214869622}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8592033110357841914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8592033109214869622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b149702d71c7e40a095c2d11d1b8e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8592033110357841915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8592033109214869622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20ae8923930ee2447bc341b98eaf8525, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boardDimensions: 0800000008000000
+  forwardsDimensions: 1
+  WhiteTimer: 30
+  BlackTimer: 30
+  initateChange: 0
+  nodesExpanded: 0
+  nodesSkipped: 0
+  timesDone: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  searchDepth: 5
+  boardTilePrefab: {fileID: 8046037125306719788, guid: 94d6e0eb9926be940b3ef33f2b950785,
+    type: 3}
+  genericChessPiecePrefab: {fileID: 1316998730445924536, guid: a2b1e8f8c44210d439b0ac011660487c,
+    type: 3}
+  GameEndPrefab: {fileID: 5318594590389302659, guid: 1f2b56744ccd8df489eec8fd8f5c1af8,
+    type: 3}
