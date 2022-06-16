@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenuScene.unity
+    guid: ad688a27ed94bfd42bcbc89b4a0de66a
+  - enabled: 1
+    path: Assets/Scenes/NDChessScene.unity
+    guid: 454b05be133bd4048b09cf75b0fb9529
+  - enabled: 0
+    path: Assets/Scenes/MultiplayerTesting.unity
+    guid: ecca9331a1b924a4c9f1fcfd2e7e84de
+  m_configObjects: {}
