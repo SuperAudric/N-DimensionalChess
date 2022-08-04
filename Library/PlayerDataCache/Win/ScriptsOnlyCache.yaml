@@ -15,6 +15,7 @@ ScriptsOnlyBuild:
     - NetworkCommunications
     - ReplaceMySprite
     - SteamLobbyChess
+    - TerribleCludgeSolution
     - TileAI
     FizzySteamworks.dll:
     - Mirror.FizzySteam.FizzySteamworks
@@ -153,17 +154,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4658}
     - Class: 114
-      Script: {instanceID: 4834}
+      Script: {instanceID: 4802}
     - Class: 114
-      Script: {instanceID: 4960}
+      Script: {instanceID: 4836}
     - Class: 114
-      Script: {instanceID: 4990}
+      Script: {instanceID: 4962}
     - Class: 114
-      Script: {instanceID: 5096}
+      Script: {instanceID: 4992}
     - Class: 114
-      Script: {instanceID: 5142}
+      Script: {instanceID: 5098}
     - Class: 114
-      Script: {instanceID: 5388}
+      Script: {instanceID: 5144}
+    - Class: 114
+      Script: {instanceID: 5390}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -258,7 +261,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4540}
     - Class: 114
-      Script: {instanceID: 5142}
+      Script: {instanceID: 5144}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1252,6 +1255,12 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Examples.dll
     namespaceName: Mirror.Examples.NetworkRoom
     className: Reward
+  - hash:
+      serializedVersion: 2
+      Hash: ec70ab0f9f73c7b60e551659e187adb3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TerribleCludgeSolution
   - hash:
       serializedVersion: 2
       Hash: 1c717f9024580154792437df7a691396

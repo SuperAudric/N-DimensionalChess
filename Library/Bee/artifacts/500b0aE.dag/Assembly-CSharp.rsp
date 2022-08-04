@@ -380,6 +380,7 @@
 "Assets/Scripts/ManuelControlLogic.cs"
 "Assets/Scripts/SteamLobbyChess.cs"
 "Assets/Scripts/SteamManager.cs"
+"Assets/Scripts/TerribleCludgeSolution.cs"
 "Assets/Scripts/TileAI.cs"
 -langversion:8.0
 

@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\ChessControllerND.cs" />
     <Compile Include="Assets\Scripts\ChessPieceAI.cs" />
     <Compile Include="Assets\Scripts\SteamLobbyChess.cs" />
+    <Compile Include="Assets\Scripts\TerribleCludgeSolution.cs" />
     <Compile Include="Assets\ReplaceMySprite.cs" />
     <Compile Include="Assets\Scripts\Classes.cs" />
     <Compile Include="Assets\Scripts\ButtonProxy.cs" />

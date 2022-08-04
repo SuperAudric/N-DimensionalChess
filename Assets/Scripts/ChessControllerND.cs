@@ -86,7 +86,10 @@ public class ChessControllerND : MonoBehaviour
     //setup board, pieces, and movesets
     void Start()
     {
-        myPieces = new StorageObject(boardDimensions);
+        if (GameObject.Find("AudioController") != null)
+            if (GameObject.Find("AudioController").GetComponent<TerribleCludgeSolution>() != null)
+                GameObject.Find("AudioController").GetComponent<TerribleCludgeSolution>().poke();
+                    myPieces = new StorageObject(boardDimensions);
         myTiles = Array.CreateInstance(typeof(TileAI), boardDimensions);
         updateRate = Time.fixedDeltaTime;
         historyText = GameObject.Find("TurnHistoryText").GetComponent<TextMesh>();
